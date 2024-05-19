@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de la vie</title>
+    <link rel="icon" href="/src/favicon.png">
+    <script src="https://kit.fontawesome.com/a46f84f941.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <canvas id="myCanvas" width="799" height="499" style="border:1px solid black"></canvas>
+    <form id="config">
+        <input type="color" name="color" id="color">
+        <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
+        <button type="submit" id="submit"><i class="fa-solid fa-play"></i></button>
+        <button id="pause" disabled><i class="fa-solid fa-pause"></i></button>
+        <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+        <button id="clear"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+    </form>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
